@@ -1,0 +1,57 @@
+{
+  "name": "@oneverseswap/contracts",
+  "version": "1.0.6",
+  "license": "MIT",
+  "description": "Token, Liquidity Mining and Governance contracts for oneverseswap",
+  "files": [
+    "contracts",
+    "build"
+  ],
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VenomProtocol/oneverseswap-contracts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VenomProtocol/oneverseswap-contracts/issues"
+  },
+  "homepage": "https://github.com/VenomProtocol/oneverseswap-contracts#readme",
+  "keywords": [
+    "venomprotocol",
+    "venomdao",
+    "oneverseswap",
+    "ethereum",
+    "binance smart chain",
+    "harmony"
+  ],
+  "devDependencies": {
+    "@types/chai": "^4.2.6",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "ethereum-waffle": "^2.4.1",
+    "ethereumjs-util": "^6.2.0",
+    "mocha": "^6.2.2",
+    "prettier": "^1.19.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.5",
+    "rimraf": "^3.0.0",
+    "solc": "0.6.12",
+    "ts-node": "^8.5.4",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
+    "@oneverseswap/core": "^1.0.0",
+    "@oneverseswap/lib": "^1.0.0",
+    "@oneverseswap/peripheryy": "^1.0.0"
+  },
+  "scripts": {
+    "lint": "yarn prettier ./test/*.ts --check",
+    "lint:fix": "yarn prettier ./test/*.ts --write",
+    "clean": "rimraf ./build/",
+    "precompile": "yarn clean",
+    "compile": "waffle .waffle.json",
+    "pretest": "yarn compile",
+    "test": "mocha",
+    "prepublishOnly": "yarn test"
+  }
+}
