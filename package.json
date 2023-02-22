@@ -1,6 +1,6 @@
 {
   "name": "@oneverseswap/contracts",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "license": "MIT",
   "description": "Token, Liquidity Mining and Governance contracts for oneverseswap",
   "files": [
@@ -23,6 +23,10 @@
     "findora"
   ],
   "devDependencies": {
+    "@oneverseswap/core": "^1.0.2",
+    "@oneverseswap/lib": "^1.0.1",
+    "@oneverseswap/peripheryy": "^1.0.1",
+    "@openzeppelin/contracts": "^3.1.0",
     "@types/chai": "^4.2.6",
     "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
@@ -34,11 +38,7 @@
     "rimraf": "^3.0.0",
     "solc": "0.6.12",
     "ts-node": "^8.5.4",
-    "typescript": "^3.7.3",
-    "@openzeppelin/contracts": "^3.1.0",
-    "@oneverseswap/core": "^1.0.2",
-    "@oneverseswap/lib": "^1.0.1",
-    "@oneverseswap/peripheryy": "^1.0.1"
+    "typescript": "^3.7.3"
   },
   "dependencies": {},
   "scripts": {
