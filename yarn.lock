@@ -215,20 +215,25 @@
     "@ethersproject/properties" "^5.3.0"
     "@ethersproject/strings" "^5.3.0"
 
-"@oneverseswap/core@1.0.2", "@oneverseswap/core@^1.0.2":
+"@oneverseswap/core@1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@oneverseswap/core/-/core-1.0.2.tgz#bf642a1280a27e4e3a0a274e1744b005e56aa284"
   integrity sha512-dlftgquAGrwW2KV74S3pQQgSHL16+wKkiTZRHq2O61dKGHOqKvcPjLxY+TS5hizrOC9wML7tZNF9ahLJg07HCA==
+
+"@oneverseswap/core@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@oneverseswap/core/-/core-1.0.3.tgz#ef57925e7c44f1013467cedde228d551fbf1b1c0"
+  integrity sha512-e38h6Q7F/YK5SvvpbLCpSp22UcYJhKFcj12xGhJxxDLlAAYWw3mKrMqPI5k6LhaWBuK9/fOQ2l0R16VahHNgXQ==
 
 "@oneverseswap/lib@1.0.1", "@oneverseswap/lib@^1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@oneverseswap/lib/-/lib-1.0.1.tgz#2dbaf6a946b3900c9e3310053f4fb1b35e45627c"
   integrity sha512-jk6zA7s5Zl+9wg3ZyEV7AGLFRrUctCVBIbFiZU8V326UXTAblagkNumtI2kKgm3vIQOt67SbrQkte6Jq8spGVQ==
 
-"@oneverseswap/peripheryy@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@oneverseswap/peripheryy/-/peripheryy-1.0.1.tgz#06d6f66dd89169cb3334a99a57a50840fd8428ed"
-  integrity sha512-6zfkx6ThGfjl6nnqyjvGu+GRj42LdaN4tP412HOGPkfs6qtOg55fBmw7zHV2B4gxycru1qF7K2Bvki6uROftbg==
+"@oneverseswap/peripheryy@^1.0.2":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@oneverseswap/peripheryy/-/peripheryy-1.0.3.tgz#1116750480de6bb95b4bc9a1606875e7d209a354"
+  integrity sha512-5cAvdoKnaI0TPXOHIuYtaMa3yMPRdCpp3NpskZJnag8CDg6DtM0VczuGYa7v8k/O+2V8dxdW8QEVjqOXxEjFGg==
   dependencies:
     "@oneverseswap/core" "1.0.2"
     "@oneverseswap/lib" "1.0.1"
