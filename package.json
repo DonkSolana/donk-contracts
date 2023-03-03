@@ -1,6 +1,6 @@
 {
   "name": "@oneverseswap/contracts",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "license": "MIT",
   "description": "Token, Liquidity Mining and Governance contracts for oneverseswap",
   "files": [
