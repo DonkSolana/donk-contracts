@@ -1,8 +1,8 @@
 {
-  "name": "@oneverseswap/contracts",
-  "version": "1.0.10",
+  "name": "@donk/contracts",
+  "version": "1.0.0",
   "license": "MIT",
-  "description": "Token, Liquidity Mining and Governance contracts for oneverseswap",
+  "description": "Token, Liquidity Mining and Governance contracts for donk",
   "files": [
     "contracts",
     "build"
@@ -10,14 +10,14 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/willcordeiro/oneverseswap-contracts.git"
+    "url": "git+https://github.com/DonkSolana/donk-contracts.git"
   },
   "bugs": {
     "url": "https://github.com/willcordeiro/oneverseswap-contracts/issues"
   },
   "homepage": "https://oneverse.one/",
   "keywords": [
-    "oneverseswap",
+    "donk",
     "ethereum",
     "anvil testnet",
     "findora"
