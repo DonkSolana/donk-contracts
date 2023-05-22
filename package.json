@@ -1,6 +1,6 @@
 {
   "name": "@donkswap/contracts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "description": "Token, Liquidity Mining and Governance contracts for donk",
   "files": [
