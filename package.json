@@ -1,5 +1,5 @@
 {
-  "name": "@donk/contracts",
+  "name": "@donkswap/contracts",
   "version": "1.0.0",
   "license": "MIT",
   "description": "Token, Liquidity Mining and Governance contracts for donk",
@@ -23,9 +23,9 @@
     "findora"
   ],
   "devDependencies": {
-    "@oneverseswap/core": "^1.0.3",
-    "@oneverseswap/lib": "^1.0.1",
-    "@oneverseswap/peripheryy": "^1.0.3",
+    "@donkswap/core": "^1.0.0",
+    "@donkswap/lib": "^1.0.1",
+    "@donkswap/periphery": "^1.0.1",
     "@openzeppelin/contracts": "^3.1.0",
     "@types/chai": "^4.2.6",
     "@types/mocha": "^5.2.7",
