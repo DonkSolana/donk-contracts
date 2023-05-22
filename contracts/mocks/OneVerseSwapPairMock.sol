@@ -2,8 +2,8 @@
 
 pragma solidity 0.6.12;
 
-import "@oneverseswap/core/contracts/UniswapV2Pair.sol";
+import '@donkswap/core/contracts/UniswapV2Pair.sol';
 
-contract oneverseswapPairMock is UniswapV2Pair {
+contract donkswapPairMock is UniswapV2Pair {
     constructor() public UniswapV2Pair() {}
 }
