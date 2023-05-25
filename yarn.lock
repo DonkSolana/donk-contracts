@@ -12,10 +12,10 @@
   resolved "https://registry.yarnpkg.com/@donkswap/lib/-/lib-1.0.1.tgz#ae1538b90e18e8b93265aedaec0bc8343a727f40"
   integrity sha512-kySMNsQx6JNHQOmcmlTO8CspAxZ1ZzmAZAOw0sxyYIc4h3SM46wrzJGqBhOlGLG4VDFNCR+dDnhRfoFLpBHJBQ==
 
-"@donkswap/periphery@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@donkswap/periphery/-/periphery-1.0.3.tgz#56a2592a75305042142020672389262e012e821f"
-  integrity sha512-/9V8YgyZVwEpVGnWaW9HBC+9Z/prIno5zZitz5grfLe1yVcZUenr8E2cArlYC1LlU/6qAGEccnHy/0QYpAFqRA==
+"@donkswap/periphery@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@donkswap/periphery/-/periphery-1.0.5.tgz#d5cb8e2cfc5b7f89a065fc268facfe9f7e8bd4ed"
+  integrity sha512-U9u7Rkt3GS6jQfhtfu+ENDgpCczPLE2bZ1B7vgXfwjnSpMLSm9ruAWDIsU1+djRWRiz+3IooszDftOx2rdkE0w==
   dependencies:
     "@donkswap/core" "1.0.0"
     "@donkswap/lib" "1.0.1"

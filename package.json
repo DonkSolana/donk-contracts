@@ -25,7 +25,7 @@
   "devDependencies": {
     "@donkswap/core": "^1.0.0",
     "@donkswap/lib": "^1.0.1",
-    "@donkswap/periphery": "^1.0.3",
+    "@donkswap/periphery": "^1.0.5",
     "@openzeppelin/contracts": "^3.1.0",
     "@types/chai": "^4.2.6",
     "@types/mocha": "^5.2.7",
